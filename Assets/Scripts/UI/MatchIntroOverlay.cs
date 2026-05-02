@@ -119,7 +119,7 @@ namespace TrashRoyale.UI
             rt.anchoredPosition = new Vector2(0, offY);
 
             // Icon on left.
-            var iconImg = UIFactory.MakeIcon(panel.transform, "Icon", "Icons/" + iconKey, new Vector2(140, 140));
+            var iconImg = UIFactory.MakeIcon(panel.transform, "Icons/" + iconKey, new Vector2(140, 140));
             var irt = iconImg.GetComponent<RectTransform>();
             irt.anchorMin = new Vector2(0f, 0.5f);
             irt.anchorMax = new Vector2(0f, 0.5f);

@@ -112,7 +112,7 @@ namespace TrashRoyale.UI
                 tile.type = Image.Type.Sliced;
                 tile.color = earned ? def.medalColor : new Color(0.18f, 0.18f, 0.22f, 1f);
             }
-            var icon = UIFactory.MakeIcon(tile.transform, "Icon", "Icons/" + def.medalIconKey, new Vector2(140, 140));
+            var icon = UIFactory.MakeIcon(tile.transform, "Icons/" + def.medalIconKey, new Vector2(140, 140));
             icon.color = earned ? Color.white : new Color(0.4f, 0.4f, 0.4f, 0.7f);
             var irt = icon.GetComponent<RectTransform>();
             irt.anchorMin = new Vector2(0f, 0.5f);

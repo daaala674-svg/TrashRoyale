@@ -189,7 +189,7 @@ namespace TrashRoyale.Bootstrap
             {
                 var def = Achievements.All[i];
                 if (!unlocked.Contains(def.kind.ToString())) continue;
-                var iconImg = UIFactory.MakeIcon(strip.transform, "Medal_" + def.kind,
+                var iconImg = UIFactory.MakeIcon(strip.transform,
                     "Icons/" + def.medalIconKey, new Vector2(60, 60));
                 iconImg.color = def.medalColor;
                 var irt = iconImg.GetComponent<RectTransform>();

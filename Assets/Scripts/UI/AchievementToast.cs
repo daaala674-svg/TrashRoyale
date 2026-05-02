@@ -67,7 +67,7 @@ namespace TrashRoyale.UI
             _panel.anchoredPosition = new Vector2(700f, -180f); // start off-screen right
 
             // Big medal icon on the left.
-            _medalIcon = UIFactory.MakeIcon(_panel, "Medal", "Icons/" + _def.medalIconKey, new Vector2(160, 160));
+            _medalIcon = UIFactory.MakeIcon(_panel, "Icons/" + _def.medalIconKey, new Vector2(160, 160));
             var mrt = _medalIcon.GetComponent<RectTransform>();
             mrt.anchorMin = new Vector2(0f, 0.5f);
             mrt.anchorMax = new Vector2(0f, 0.5f);
